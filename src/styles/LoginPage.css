@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: aliceblue;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #3f119a 0%, #8017bd 50%, #3e145e 100%);
+  padding: 20px;
+}
+
+.card {
+  margin: 10rem auto;
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(68, 1, 87, 0.936);
+  backdrop-filter: blur(100px);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-icon-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-icon-container .pi-user {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  width: 24px;
+  min-width: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.p-input-wrapper {
+  flex: 1;
+}
+
+/* Base styles for both inputs */
+.login-input,
+.p-password .p-password-input {
+  width: 100% !important;
+  height: 42px !important;
+  padding: 0.75rem !important;
+  background: transparent !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  color: white !important;
+  font-size: 1rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Password component specific styles */
+.p-password {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.p-password .p-password-input {
+  padding-right: 2.5rem;
+}
+
+.p-password .p-password-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Placeholders */
+.login-input::placeholder,
+.p-password input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+
+.p-button {
+  display: block !important;
+  margin: 0 auto !important;
+  background-color: #ffffff !important;
+  border: none !important;
+  color: #6366F1 !important;
+  transition: all 0.3s ease !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.p-button:hover {
+  background-color: #6366F1 !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3) !important;
+}
+
+.p-button .p-button-icon {
+  color: #6366F1 !important;
+}
+
+.p-button:hover .p-button-icon {
+  color: #ffffff !important;
+}
+
+.login-button.p-button {
+  display: block !important;
+  margin: 0 auto !important;
+  background-color: #ffffff !important;
+  border: none !important;
+  color: #8017bd !important;
+  font-weight: 600 !important;
+  padding: 1rem 2.5rem !important;
+  border-radius: 8px !important;
+  font-size: 1.1rem !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.login-button.p-button:hover {
+  background-color: #8017bd !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(128, 23, 189, 0.4) !important;
+}
+
+.login-button.p-button .p-button-icon {
+  color: #8017bd !important;
+}
+
+.login-button.p-button:hover .p-button-icon {
+  color: #ffffff !important;
+}
