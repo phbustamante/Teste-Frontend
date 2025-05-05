@@ -6,7 +6,8 @@ Aplicação React com autenticação e gerenciamento de produtos.
 
 ```bash
 git clone https://github.com/seuusuario/soultech-auth-app
-cd soultech-auth-app
+cd Teste-Frontend
+
 npm install
 ```
 
